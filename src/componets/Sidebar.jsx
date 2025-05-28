@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/Sidebar.css"; // ✅ Correct relative path
+import "../styles/Sidebar.css"; 
 
 const Sidebar = () => {
 

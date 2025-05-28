@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import '../../styles/AnatomySection.css';
+import '../../styles/Anatomysection.css';
 
 const AnatomySection = () => {
 
