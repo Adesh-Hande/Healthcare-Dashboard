@@ -1,0 +1,57 @@
+.input-box {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+    /* border: 2px solid red; */
+    background: white;
+
+
+}
+
+.input-box svg {
+    background: none;
+    padding: 0 10px;
+}
+
+.input-box input {
+    width: 500px;
+    height: 30px;
+    border: none;
+    /* padding: 0 20px; */
+}
+
+#main-head {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin: 8px;
+
+
+}
+
+header button {
+    margin-right: 10px;
+    border: none;
+}
+
+#btn-plus {
+
+    background-color: rgb(60, 60, 166);
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 25px;
+}
+
+#btn-profile {
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 3px;
+}

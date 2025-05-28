@@ -1,0 +1,131 @@
+img {
+    background: transparent;
+}
+
+.humanbody>img {
+
+    width: 30vw;
+    height: 350px;
+    margin: 30px;
+    /* background: transparent; */
+      mix-blend-mode: multiply;
+}
+
+.humanpart img {
+    width: 50px;
+    /* border: 2px solid red; */
+
+    mix-blend-mode: multiply;
+    background: none;
+
+
+}
+
+.humanpart {
+    /* border: 2px solid red; */
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.lungs>div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.lungs,
+.bone,
+.teeth {
+    height: 120px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    background-color: #eef0f5;
+}
+
+.lungs p {
+    margin: 5px 10px;
+}
+
+.bar {
+    width: 150px;
+    height: 6px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid rgb(220, 205, 205);
+    margin: auto;
+
+}
+
+
+.bar-containt {
+    width: 100px;
+    height: 6px;
+    background-color: #ca3d3d;
+    border-radius: 10px;
+
+}
+
+.teeth .bar-containt{
+    background-color:rgb(23, 199, 238);
+}
+.bone .bar-containt{
+    background-color:rgb(240, 87, 27);
+}
+.humanbody{
+    position: relative;
+}
+.heart-note{
+    position: absolute;
+    right: 80px;
+    top:100px;
+     color: white;
+    background-color: rgb(40, 40, 201);
+    padding: 5px 12px;
+     font-weight: 600;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.leg-note{
+    position: absolute;
+    bottom: 130px;
+    left: 90px;
+    color: rgb(25, 25, 162);
+    background-color: rgb(46, 216, 242);
+    padding: 5px 12px;
+    font-weight: 600;
+    font-size: 12px;
+     border-radius: 8px;
+}
+
+.square-leg{
+    position: absolute;
+     bottom: 120px;
+    left: 210px;
+    width: 35px ;
+    height: 40px;
+    
+    border: 2px dotted rgb(68, 22, 197);
+   
+}
+
+.square-heart{
+     position: absolute;
+      right: 215px;
+    top:95px;
+    width: 35px ;
+    height: 35px;
+    
+    border: 2px dotted rgb(68, 22, 197);
+
+}
+
+.search{
+    position: absolute;
+    top:10px;
+    right:20px;
+}

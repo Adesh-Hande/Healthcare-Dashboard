@@ -1,0 +1,143 @@
+.calendar-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 30vw;
+  /* margin: auto; */
+  background: #f8f9fc;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+
+ 
+}
+
+.calendar-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+  flex-shrink: 0;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  flex-grow: 1;
+  /* overflow-y: auto; */
+  padding-right: 4px;
+}
+
+.calendar-day-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-align: center;
+  color: #6b7280; 
+
+}
+
+.calendar-date {
+  background: #f3f4f6;
+  border-radius: 1rem;
+  padding: 0.25rem;
+  min-height: 90px;
+  width: 30px;
+  text-align: center;
+  /* overflow-y: auto; */
+  /* box-sizing: border-box; */
+}
+
+.calendar-date:hover{
+ background-color:#e0e7ff;
+ cursor: pointer;
+}
+.calendar-date-number {
+  font-weight: 600;
+  margin-bottom: 4px;
+  font-size: 0.85rem;
+  color: #111827;
+}
+
+.calendar-time-slot {
+  background: white;
+  margin: 2px auto;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+  border-radius: 12px;
+  width: fit-content;
+  color: #374151;
+  border: 1px solid #d1d5db;
+}
+
+.selected {
+  background-color: #4338ca;
+  color: white;
+  font-weight: bold;
+  border: none;
+ 
+}
+
+.appointments-section {
+ 
+  flex-shrink: 0;
+  margin-top: 0.5rem;
+  /* overflow-y: auto; */
+  max-height: 35%;
+  /* border: 2px solid red; */
+  padding: 0.5rem;
+}
+
+.appointments-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.appointments-list {
+  display: flex;
+  gap: 0.5rem;
+  /* flex-wrap: nowrap; */
+}
+
+.appointment-card {
+  
+  border: 1px solid #e5e7eb;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  flex: 1 1 45%;
+    /* border: 2px solid red; */
+
+}
+
+.appointment-card h4 {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  font-size: 0.85rem;
+  
+}
+.dentist
+{
+  background-color: rgb(7, 7, 190);
+  color: rgb(250, 248, 248);
+  border-radius: 20px;
+  /* border: none; */
+  padding: 8px 12px;
+  margin: 3px;
+}
+.dentist h4 {
+  color: rgb(254, 251, 251);
+}
+
+.physio h4 {
+  color: gray;
+}
+.physio{
+    border-radius: 20px;
+  background-color:#e0e7ff;
+
+
+}

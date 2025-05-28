@@ -1,0 +1,326 @@
+main {
+    margin: 0 10px;
+    width: 50vw;
+    /* border: 2px solid red; */
+
+}
+
+#menu-box {
+    display: flex;
+    gap: 10px;
+}
+
+#menu-box img {
+    display: none;
+}
+
+main header h1 {
+    color: rgb(2, 2, 123);
+}
+
+main header span {
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+}
+
+@media(min-width:800)and(max-width:1200px) {
+    .sidebar {
+        /* background-color: red; */
+        height: 100vh;
+    }
+
+    #main-head header input {
+        width: 300px;
+    }
+
+
+    #main-dash-box {
+        width: 100%;
+        border: 2px solid red;
+    }
+
+
+    .dash-board-containt {
+        flex-direction: column;
+    }
+
+    #anatomy-box {
+        width: auto;
+        border: 2px solid red;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #calendar-box {
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+
+    }
+
+    #note-heart {
+
+        right: 10px;
+        top: 100px;
+
+    }
+
+    #note-leg {
+        position: absolute;
+
+        bottom: 130px;
+        left: 30px;
+        /* border: 2px solid red; */
+
+
+    }
+
+    #square-leg {
+
+        bottom: 120px;
+        left: 150px;
+
+
+
+
+    }
+
+    #square-heart {
+
+        right: 155px;
+        top: 95px;
+
+
+        border: 2px dotted rgb(68, 22, 197);
+
+    }
+
+
+
+
+
+
+}
+
+@media(max-width:1200px) {
+
+
+
+    .sidebar {
+        /* background-color: red; */
+        height: 100vh;
+    }
+
+    #main-head header input {
+        max-width: 300px;
+    }
+
+
+    #main-dash-box {
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+
+    .dash-board-containt {
+        flex-direction: column;
+    }
+
+    #anatomy-box {
+        width: auto;
+        /* border: 2px solid red; */
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #calendar-box {
+        /* justify-content: center; */
+        width: 100%;
+        gap: 20px;
+
+    }
+
+    #note-heart {
+
+        right: 10px;
+        top: 100px;
+
+    }
+
+    #note-leg {
+        position: absolute;
+
+        bottom: 130px;
+        left: 30px;
+
+
+
+    }
+
+    #square-leg {
+
+        bottom: 120px;
+        left: 150px;
+
+
+
+
+    }
+
+    #square-heart {
+
+        right: 155px;
+        top: 95px;
+
+
+        border: 2px dotted rgb(68, 22, 197);
+
+    }
+
+
+
+
+
+
+
+}
+
+@media (max-width:950px) {
+
+    #square-leg {
+        bottom: 120px;
+        left: 130px;
+    }
+
+    #square-heart {
+        right: 135px;
+        top: 95px;
+    }
+
+    #anatomy-box {
+        width: auto;
+        /* border: 2px solid red; */
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 20px;
+
+    }
+
+    #note-heart {
+
+        right: 0px;
+        top: 100px;
+
+    }
+
+    #note-leg {
+
+        bottom: 130px;
+        left: 10px;
+    }
+}
+
+@media (max-width:550px) {
+    #side-bar{
+        /* display: none; */
+         position: absolute;
+        left: -150%;
+        z-index: 1;
+        width: 60vw;
+        transition: all 0.9s ease-in-out;
+
+    }
+
+    #main-dash-box{
+        width: 100vw;
+
+    }
+    /* .sidebar{
+         position: absolute;
+        left: -150%;
+        z-index: 1;
+        width: 60vw;
+        transition: all 1s ease-in-out;
+    } */
+    #cross {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        display: block;
+    }
+
+    #menu-box img {
+        display: block;
+    }
+
+    #anatomy-box {
+        flex-direction: column;
+    }
+
+    #humanpart-box {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        /* border: 2px solid red; */
+    }
+
+    #calendar-box {
+        /* justify-content: center; */
+        width: 100%;
+        gap: 20px;
+        /* border: 2px solid green; */
+
+    }
+
+    #humanpart-box {
+        overflow: scroll;
+    }
+
+    .input-box input {
+        width: 180px;
+
+    }
+}
+
+
+
+@media(max-width:420px) {
+
+    .input-box input {
+        width: 150px;
+
+    }
+
+    #square-leg {
+        bottom: 120px;
+        left: 65px;
+        width: 20px;
+    }
+
+    #square-heart {
+        right: 60px;
+        top: 95px;
+        width: 25px;
+    }
+
+
+    #note-heart {
+
+        right: -70px;
+        top: 100px;
+
+    }
+
+    #note-leg {
+
+        bottom: 130px;
+        left: -60px;
+    }
+
+}
