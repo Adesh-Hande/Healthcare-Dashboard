@@ -59,7 +59,7 @@ const Sidebar = () => {
             <path d="M13 19.5C13 19.5 14.3485 20.0067 15 22C15 22 18.1765 17 21 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
           </svg>Chat</li>
           <li>
-            <img style={{ width: "15px" }} src="./src/assets/images/telephone.png" alt="" /> Support</li>
+            <img style={{ width: "15px" }} src="/images/telephone.png" alt="" /> Support</li>
         </ul>
 
         <span style={{ display: "flex", gap: "8px", position: "absolute", bottom: "10px", left: "40px",fontSize:"11px",alignItems:"center" ,fontWeight:"600", color:"rgb(145, 145, 134)"}}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#000000" fill="none">
