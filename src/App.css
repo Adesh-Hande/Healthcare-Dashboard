@@ -21,7 +21,7 @@
     /* border: 2px solid red; */
     border-radius: 20px;
     width: 98%;
-    height: 95vh;
+    height: auto;
     display: flex;
     background-color: rgb(249, 247, 247);
 }
