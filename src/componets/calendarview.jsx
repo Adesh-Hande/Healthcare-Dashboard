@@ -21,8 +21,8 @@ const Calendarview = () => {
       <div style={{ display: "flex", justifyContent: "space-between", padding: "0 10px" }}>
         <h2 className="calendar-title">October 2021</h2>
         <div>
-          <img style={{ width: "28px " }} src="./src/assets/images/arrow-left.png" alt="arrow" />
-          <img style={{ width: "28px" }} src="./src/assets/images/arrow-right.png" alt="arrow" />
+          <img style={{ width: "28px " }} src="/images/arrow-left.png" alt="arrow" />
+          <img style={{ width: "28px" }} src="/images/arrow-right.png" alt="arrow" />
         </div>
       </div>
       <div className="calendar-grid">
@@ -56,14 +56,14 @@ const Calendarview = () => {
           <div className="appointment-card dentist ">
             <div style={{ display: "flex", justifyContent: "space-between", padding: " 4px 2px 6px" }}>
               <h4>Dentist</h4>
-              <img style={{ width: "30px" }} src="./src/assets/images/teeth.jpg " alt="" />
+              <img style={{ width: "30px" }} src="/images/teeth.jpg " alt="" />
             </div>
             <p>09:00-11:00</p>
             <p>Dr.Cameron Williamson</p>
           </div>
           <div className="appointment-card physio">
             <div style={{ display: "flex", width: "250px", justifyContent: "space-between", mixBlendMode: "multiply", padding: " 4px 2px" }}><h4>Physiotherapy Appoinment</h4>
-              <img style={{ width: "20px" }} src="./src/assets/images/hand.jpg" alt="" />
+              <img style={{ width: "20px" }} src="/images/hand.jpg" alt="" />
             </div>
             <p>11:00-12:00</p>
             <p>Dr.Kavin Djones</p>
