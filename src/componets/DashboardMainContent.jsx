@@ -18,9 +18,9 @@ const DashboardMainContent = () => {
             <main id="main-dash-box" style={{width:"100%"}}>
                 <header >
                     <div id="menu-box" >
-                    <img  onClick={ShowHide} src="./src/assets/images/svgs/menu.svg" alt="error" />
+                    <img  onClick={ShowHide} src="/src/assets/images/svgs/menu.svg" alt="error" />
                     <h1>Dashboard</h1></div>
-                    <span >This week <img style={{width:"20px"}} src="./src/assets/images/down.png" alt="error" /></span>
+                    <span >This week <img style={{width:"20px"}} src="/src/assets/images/down.png" alt="error" /></span>
                 </header>
 
                 <AnatomySection />
