@@ -9,7 +9,7 @@ const Sidebar = () => {
   }
   return (
     <aside id='side-bar' className="sidebar">
-      <img id='cross' src="./src/assets/images/svgs/cross.svg" alt="error" onClick={hide}/>
+      <img id='cross' src="/images/svgs/cross.svg" alt="error" onClick={hide}/>
       <h2><span>Health</span><span>care.</span></h2>
 
       <nav >
