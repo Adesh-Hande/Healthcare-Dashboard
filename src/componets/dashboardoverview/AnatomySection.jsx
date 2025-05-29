@@ -9,7 +9,7 @@ const AnatomySection = () => {
     <>
       <div id="anatomy-box" style={{ border: "", display: "flex" }}>
         <div className="humanbody">
-          <img src="./src/assets/images/humanbody.jpg" alt="" />
+          <img src="/src/assets/images/humanbody.jpg" alt="" />
           <div id="note-heart" className="heart-note note"><img style={{ width: "20px" }} src="./src/assets/images/red-heart.png" alt="" />Healthy Heart</div>
           <div id="note-leg"className="leg-note note"><img style={{ width: "15px" }} src="./src/assets/images/leg.png" alt="" />Healthy Leg</div>
           <div id="square-leg" className="square-leg"></div>
