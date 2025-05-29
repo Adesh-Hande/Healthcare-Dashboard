@@ -1,6 +1,7 @@
-main {
+#main-dash-box {
     margin: 0 10px;
-    width: 50vw;
+    width: 100%;
+    height: 100%;
     /* border: 2px solid red; */
 
 }
@@ -39,7 +40,7 @@ main header span {
 
     #main-dash-box {
         width: 100%;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
 
 
@@ -49,7 +50,7 @@ main header span {
 
     #anatomy-box {
         width: auto;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         justify-content: center;
         align-items: center;
 
@@ -71,46 +72,29 @@ main header span {
 
     #note-leg {
         position: absolute;
-
         bottom: 130px;
         left: 30px;
         /* border: 2px solid red; */
-
-
     }
 
     #square-leg {
 
         bottom: 120px;
         left: 150px;
-
-
-
-
     }
 
     #square-heart {
-
         right: 155px;
         top: 95px;
-
-
         border: 2px dotted rgb(68, 22, 197);
 
     }
-
-
-
-
-
 
 }
 
 @media(max-width:1200px) {
 
-
-
-    .sidebar {
+    #side-bar {
         /* background-color: red; */
         height: 100vh;
     }
@@ -146,80 +130,51 @@ main header span {
     }
 
     #note-heart {
-
         right: 10px;
         top: 100px;
-
     }
 
     #note-leg {
         position: absolute;
-
         bottom: 130px;
         left: 30px;
-
-
-
     }
 
     #square-leg {
-
         bottom: 120px;
         left: 150px;
-
-
-
-
     }
 
     #square-heart {
-
         right: 155px;
         top: 95px;
-
-
         border: 2px dotted rgb(68, 22, 197);
-
     }
-
-
-
-
-
-
 
 }
 
 @media (max-width:950px) {
-
     #square-leg {
         bottom: 120px;
         left: 130px;
     }
-
     #square-heart {
         right: 135px;
         top: 95px;
     }
-
     #anatomy-box {
         width: auto;
         /* border: 2px solid red; */
         justify-content: space-between;
         align-items: center;
         margin: 0 20px;
-
     }
-
     #note-heart {
-
         right: 0px;
         top: 100px;
-
     }
 
     #note-leg {
-
         bottom: 130px;
         left: 10px;
     }
@@ -240,13 +195,7 @@ main header span {
         width: 100vw;
 
     }
-    /* .sidebar{
-         position: absolute;
-        left: -150%;
-        z-index: 1;
-        width: 60vw;
-        transition: all 1s ease-in-out;
-    } */
+   
     #cross {
         position: absolute;
         right: 10px;
@@ -293,7 +242,7 @@ main header span {
 @media(max-width:420px) {
 
     .input-box input {
-        width: 150px;
+        width: 130px;
 
     }
 
