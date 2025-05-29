@@ -62,7 +62,7 @@ const Calendarview = () => {
             <p>Dr.Cameron Williamson</p>
           </div>
           <div className="appointment-card physio">
-            <div style={{ display: "flex", minWidth: "250px", justifyContent: "space-between", mixBlendMode: "multiply", padding: " 4px 2px" }}><h4>Physiotherapy Appoinment</h4>
+            <div style={{ display: "flex", maxWidth: "250px",minWidth:"auto", justifyContent: "space-between", mixBlendMode: "multiply", padding: " 4px 2px" }}><h4>Physiotherapy Appoinment</h4>
               <img style={{ width: "20px" }} src="/images/hand.jpg" alt="" />
             </div>
             <p>11:00-12:00</p>

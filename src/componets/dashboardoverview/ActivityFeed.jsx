@@ -15,7 +15,6 @@ const data = [
   { day: 'Sun', bars: [25, 30, 60] },
 ];
 
-// const colors = ['#1CC6E8', '#2C3AE0', '#6B4DE6'];
 
 const colors = ['#ffffff', '#2ed8f2', '#6B4DE6'];
 const ActivityFeed = () => {
@@ -23,7 +22,7 @@ const ActivityFeed = () => {
     <>
       
 
-      <div style={{width:"100%",overflow:"scroll"}} className="chart-container">
+      <div style={{width:"auto",overflow:"scroll"}} className="chart-container">
         <h3>Activity</h3>
         <div className="chart">
           {data.map((dayData, i) => (
